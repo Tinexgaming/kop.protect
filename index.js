@@ -11,7 +11,8 @@ bot.login(Process.env.TOCKEN);
 bot.on('ready', () => {
 	console.log('Je suis prêt !') ;
 	
-	bot.user.setActivity("En dev")
+	bot.user.setActivity("En dev";
+			     
 }
 
 });
