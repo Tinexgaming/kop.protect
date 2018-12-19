@@ -10,13 +10,8 @@ bot.login(Process.env.TOCKEN);
 
 bot.on('ready', () => {
 	console.log('Je suis prêt !') ;
-	setInterval(changing_status, 1000);
-
-	function changing_statud() {
-	let status = ["Protèger" +client.guilds.size+" serveurs ", client.users.size +"utilisateurs en sécurité", "Créer par Tinex le Clinex {Ping = 🎄}", "Merci à _ClesiriusPE _「🎄」", "kp/help pour voir ma page d'aide"]
-	let random = status[Math.floor(Math.random() * status.length)]
 	
-	bot.user.setActivity(random)
+	bot.user.setActivity("En dev")
 }
 
 });
